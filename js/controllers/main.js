@@ -35,7 +35,7 @@ const alertMsg = () =>{
     div.setAttribute("id","alert")
     div.setAttribute("class","bg-white w-full my-8 flex rounded-lg justify-center items-center text-3xl text-red-600 font-bold")
     const title = document.createElement("h5")
-    title.innerHTML = 'ERRO! API desativada ative o terminal na pasta index do projeto e escreva no terminal > <span style="color:black;">npm start</span>'
+    title.innerHTML = 'ERRO! API desativada ative o terminal na pasta index do projeto e escreva no terminal > <span style="color:black;">npm start</span>, caso não funcione use o comando no terminal <span style="color:black;">npm i json-server</span> depois repita o primeiro comando'
 
     div.appendChild(title)
     productContainer.appendChild(div)
