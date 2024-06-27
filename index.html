@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles/output.css">
+</head>
+<body>
+    <header class="p-5 bg-cor_primaria flex justify-center items-center text-white">
+        <img src="styles/imagens/image 1-1.svg" alt="">
+        <h1 class="text-2xl font-semibold">AluraGeek</h1>
+    </header>
+    <main class="md:flex md:flex-row-reverse md:gap-6 md:px-4">
+        <form data-form class="w-11/12 flex flex-col m-auto my-2 md:w-1/2">
+            <h2 class="text-2xl flex flex-col py-4 items-center font-extrabold">Adicionar produto:</h2>
+
+            <div class="campo-inputs flex flex-col justify-center items-center">
+                <input data-name type="text" name="" id="" placeholder="Nome.." class="border-4 border-cor_segundaria rounded-xl my-3 text-cor_segundaria placeholder:text-cor_segundaria p-2 font-semibold outline-none w-full md:w-1/2">
+
+                <input data-price type="text" placeholder="preço.." class="border-4 border-cor_segundaria rounded-xl my-3 text-cor_segundaria placeholder:text-cor_segundaria p-2 font-semibold outline-none w-full md:w-1/2">
+
+                <input data-image type="text" name="" id="" placeholder="imagen.." class="border-4 border-cor_segundaria rounded-xl my-3 text-cor_segundaria placeholder:text-cor_segundaria p-2 font-semibold outline-none w-full md:w-1/2">
+            </div>
+            <div class="flex justify-around w-full md:justify-center md:gap-6">
+                <input type="submit" value="Guardar" class="bg-cor_segundaria text-white text-2xl px-5 py-3 rounded-xl font-semibold">
+                <input type="reset" value="Limpar" class="px-5 py-3 rounded-xl font-semibold border-4 text-cor_segundaria text-2xl border-cor_segundaria">
+            </div>
+        </form>
+
+        <div class="produtos my-3 md:w-1/2">
+            <h2 class="text-2xl flex flex-col py-4 items-center font-extrabold mb-5">Meus Produtos:</h2>
+            <div class="md:h-[380px] md:overflow-y-hidden md:overflow-y-scroll">
+                <div data-product class="cards px-2 flex flex-wrap gap-2 ">
+                    
+                    <div id="form-card" class="card hidden bg-cor_card rounded-xl border-4 border-black p-2 text-white w-44 shadow-[-6px_6px_3px_rgba(0,0,0,0.3)] max-md:flex-grow">
+                        <img src="styles/imagens/unsplash_6FDXGY9J6y4.svg" alt="" class="w-full h-3/4 bg-cover">
+                        <h3 class="name py-2">Stormtrooper</h3>
+                        <div class="infor flex justify-between">
+                            <div>R$ <span class="preco">20,00</span></div>
+                            <button class="clear"><img src="styles/imagens/Vector.svg" alt=""></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="bg-cor_primaria text-white py-4 md:fixed md:bottom-0 md:w-full">
+        <div class="logo flex justify-center items-center text-3xl font-bold">
+            <img src="styles/imagens/image 1-1.svg" alt="">
+            <h4>AluraGeek</h4>
+        </div>
+        <div class="flex flex-col items-center text-xl">
+            <p>Desenvolvido por <a href="">Jeferson Laurentino</a></p>
+            <p>Alura Latam - 2024</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>

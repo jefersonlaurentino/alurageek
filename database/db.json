@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Darth vader",
+      "price": "50",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp",
+      "id": "1"
+    },
+    {
+      "name": "Flash",
+      "price": "25",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "id": "2"
+    },
+    {
+      "name": "Batman",
+      "price": "35",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-Owebp-O.webp",
+      "id": "3"
+    },
+    {
+      "id": "aaef",
+      "name": "spide-man",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_631768-MLU75926209759_042024-O.webp",
+      "price": "60"
+    }
+  ]
+}
